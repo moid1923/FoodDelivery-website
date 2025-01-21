@@ -13,8 +13,8 @@ function Hero() {
             <h1 className=' text-3xl md:text-4xl lg:text-5xl font-bold'>Your Favorite Food <br /> Delivery Partner</h1>
             <p className='my-4'>The food at your doorstep . Why starve when you have us. You <br /> hunger partner. Straight out of the oven to your doorstep. </p>
             <div className="hero-left-btn relative">
-            <input type="Place your order" className="btn w-[464px] bg-cardsBg rounded-3xl px-3 py-3 my-3" placeholder='Place your order'/>
-            <button className="order-btn w-28 py-2 px-2 text-base bg-primary rounded-3xl absolute right-1 bottom-4 text-white ">Order Now</button>
+            <input type="Place your order" className="btn w-[464px] bg-cardsBg rounded-3xl px-3 py-3 my-3" placeholder='Enter your delivery location'/>
+            <button className="order-btn w-[134px] py-2 px-2 text-base bg-primary rounded-3xl absolute right-1 bottom-4 text-white ">Order Now</button>
             </div>
             
             <div className="hero-btns  my-3 flex gap-2">
@@ -41,8 +41,8 @@ function Hero() {
             </div>
         </div>
         <div className="hero-right">
-                 <div className="hr-image  hidden lg:block">
-                    <img src={hero} alt=""  className='w-full'/>
+                 <div className="hr-image rounded-2xl hidden lg:block">
+                    <img src={hero} alt=""  className='w-full '/>
                  </div>
         </div>
       </div>

@@ -4,7 +4,8 @@ import google from '../Hero-section/image/Google Play logo.svg'
 
 function Footer() {
   return (
-    <div className="footer bg-black max-w-[1600px] w-full">
+    <div className="footer-setion w-full bg-black">
+        <div className="footer bg-black max-w-[1600px] mx-auto w-full">
       <div className=" px-36 py-28 flex items-center justify-between flex-wrap">
         <div className="footer-heading">
           <p className="text-5xl mb-24">🍕</p>
@@ -80,6 +81,8 @@ function Footer() {
         </div>
       </div>
     </div>
+    </div>
+  
   );
 }
 
