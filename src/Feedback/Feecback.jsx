@@ -6,7 +6,7 @@ function Feecback() {
     <div className=' overflow-x-hidden  my-6'>
       <div className="feadback-heading text-center my-4">
         <p className='text-3xl md:text-5xl my-3 font-bold'>Our Clients Feedback</p>
-        <p className='my-3'>The food at your doorstep. Why starve when you have us. You hunger <br /> partner. Straight out of the oven to your doorstep.</p>
+        <p className='mt-10'>The food at your doorstep. Why starve when you have us. You hunger <br /> partner. Straight out of the oven to your doorstep.</p>
       </div>
       <div className="clint-feedback text-start md:text-center my-5">
         {/* <p>Colin</p> */}
@@ -17,7 +17,7 @@ function Feecback() {
         </div>
         <div className="feedback-btn flex gap-x-3 justify-center">
         <FaArrowLeft size={20} className='w-12 h-12 p-4  rounded-full' />
-        <FaArrowRight size={20} className='w-12 h-12 p-4 bg-orange-500 rounded-full' />
+        <FaArrowRight size={20} className='w-12 h-12 p-4 bg-primary rounded-full' />
         </div>
       </div>
     </div>

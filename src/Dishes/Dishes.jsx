@@ -6,7 +6,7 @@ function Dishes() {
      overflow-x-hidden px-24">
       <div className="dishes-header text-center">
         <p className="text-2xl  md:text-4xl font-bold my-4">
-          MORE THAN 10,000 DISHES <br /> TO ORDER!
+          MORE THAN <span className="text-primary"> 10,000</span>  DISHES <br /> TO ORDER!
         </p>
         <p>Welcome to The Biggest Network of Food Ordering & Delivery</p>
       </div>

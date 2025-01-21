@@ -9,7 +9,7 @@ function Subscription() {
       </div>
       <div className="search-bar relative">
       <input type="Place your order" className="btn  bg-slate-100 rounded-3xl px-3 py-2 w-72" placeholder='Your Email Address'/>
-      <button className="order-btn w-28 py-2 px-2 text-base bg-orange-600 rounded-3xl absolute right-0 ">Order Now</button>
+      <button className="order-btn w-28 py-2 px-2 text-base bg-primary rounded-3xl absolute right-0 ">Order Now</button>
       </div>
     </div>
   )

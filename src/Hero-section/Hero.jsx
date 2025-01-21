@@ -1,6 +1,7 @@
 import React from 'react'
 import './hero.css'
-import heroImg from './image/hero-img.png';
+import hero from './image/Frame 18535.png';
+
 function Hero() {
   return (
     <div className=' relative font-inter flex items-center justify-center '>
@@ -10,7 +11,7 @@ function Hero() {
             <p className='my-4'>The food at your doorstep . Why starve when you have us. You <br /> hunger partner. Straight out of the oven to your doorstep. </p>
             <div className="hero-left-btn relative">
             <input type="Place your order" className="btn w-full bg-slate-100 rounded-3xl px-3 py-2" placeholder='Place your order'/>
-            <button className="order-btn w-28 py-2 px-2 text-base bg-orange-600 rounded-3xl absolute right-0 ">Order Now</button>
+            <button className="order-btn w-28 py-2 px-2 text-base bg-primary rounded-3xl absolute right-0 ">Order Now</button>
             </div>
             
             <div className="hero-btns mx-2 my-3 flex gap-2">
@@ -20,7 +21,7 @@ function Hero() {
         </div>
         <div className="hero-right">
                  <div className="hr-image  hidden lg:block">
-                    <img src={heroImg} alt=""  className='w-96'/>
+                    <img src={hero} alt=""  className='w-96'/>
                  </div>
         </div>
       </div>
