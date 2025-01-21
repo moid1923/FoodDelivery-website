@@ -2,8 +2,8 @@ import React from 'react'
 
 function Subscription() {
   return (
-    <div className='max-w-[1612px] mx-auto bg-red-200 flex items-center justify-between px-4 py-10 md:px-24'>
-      <div className="data-section">
+    <div className='max-w-[1600px] w-full  bg-sub flex items-center justify-between px-4 py-10 md:px-24'>
+      <div className="data-section ">
         <p className='text-2xl my-4 font-bold md:text-4xl'>Subscribe our newsletter</p>
         <p className='font-thin'>Browse local restaurants and businesses for delivery by entering your address blow.</p>
       </div>
