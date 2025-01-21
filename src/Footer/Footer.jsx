@@ -52,7 +52,7 @@ function Footer() {
         <p>© 2023 pizza.All right reserved</p>
       </div>
       <div className="footer-right">
-      <ul className='flex gap-6'>
+      <ul className='flex gap-6 flex-wrap'>
                   
                   <li>Privacy</li>
                   <li>Policy</li>

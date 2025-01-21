@@ -10,10 +10,10 @@ function Feecback() {
       </div>
       <div className="clint-feedback text-start md:text-center my-5">
         {/* <p>Colin</p> */}
-        <p className='my-4'>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br /> eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <br /> ad minim veniam, quis nostrud exercitation ullamco laboris nisi”</p>
+        <p className='my-4 text-center'>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br /> eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <br /> ad minim veniam, quis nostrud exercitation ullamco laboris nisi”</p>
         <div className="name flex flex-col gap-y-2 my-5">
-            <p className='font-bold'>Mitchell Marsh</p>
-            <p className='text-md'>CEO, Bexon Agency</p>
+            <p className='font-bold text-center'>Mitchell Marsh</p>
+            <p className='text-md text-center'>CEO, Bexon Agency</p>
         </div>
         <div className="feedback-btn flex gap-x-3 justify-center">
         <FaArrowLeft size={20} className='w-12 h-12 p-4  rounded-full' />
