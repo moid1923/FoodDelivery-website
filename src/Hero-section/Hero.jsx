@@ -3,11 +3,11 @@ import './hero.css'
 import heroImg from './image/hero-img.png';
 function Hero() {
   return (
-    <div className=' relative overflow-x-hidden font-inter '>
-      <div className="hero-section flex items-center justify-between mx-24 my-16 overflow-x-hidden">
-        <div className="hero-left w-sm">
+    <div className=' relative font-inter flex items-center justify-center '>
+      <div className="hero-section max-w-[1264px] flex items-center justify-between my-16 overflow-x-hidden gap-x-16">
+        <div className="hero-left ">
             <h1 className=' text-3xl md:text-4xl lg:text-5xl font-bold'>Your Favorite Food <br /> Delivery Partner</h1>
-            <p className='my-4'>The food at your doorstep. Why starve when you have us. You <br /> hunger partner. Straight out of the oven to your doorstep. </p>
+            <p className='my-4'>The food at your doorstep . Why starve when you have us. You <br /> hunger partner. Straight out of the oven to your doorstep. </p>
             <div className="hero-left-btn relative">
             <input type="Place your order" className="btn w-full bg-slate-100 rounded-3xl px-3 py-2" placeholder='Place your order'/>
             <button className="order-btn w-28 py-2 px-2 text-base bg-orange-600 rounded-3xl absolute right-0 ">Order Now</button>

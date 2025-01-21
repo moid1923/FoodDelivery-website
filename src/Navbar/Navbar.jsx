@@ -3,12 +3,12 @@ import "./navbar.css";
 import { HiMenu } from "react-icons/hi";
 function Navbar() {
   return (
-    <div className="">
-      <nav className="w-[100vw]  flex items-center justify-between px-24 py-6 text-black">
+    <div className="flex items-center justify-center">
+      <nav className="flex items-center justify-between p-6  text-black max-w-[1178px] ">
         <div className="logo">
           <p className="text-2xl">🍕</p>
         </div>
-        <div className="links ">
+        <div className="links mx-48">
           <ul className=" hidden   md:flex items-center justify-center  ">
             <li className="mx-3 cursor-pointer">Home</li>
             <li className="mx-3 cursor-pointer">About</li>
@@ -22,7 +22,7 @@ function Navbar() {
             Login
           </button>
           <button
-            className="nav-btn p-3 rounded-full px-4 bg-orange-600 hidden md:block">
+            className="nav-btn p-3 rounded-full px-4 bg-orange-600 hidden md:block text-white">
             Sign Up
           </button>
         </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Subscription() {
   return (
-    <div className=' bg-red-200 flex items-center justify-between py-10 px-24'>
+    <div className='max-w-[1612px] mx-auto bg-red-200 flex items-center justify-between py-10 px-24'>
       <div className="data-section">
         <p className='font-bold text-4xl'>Subscribe our newsletter</p>
         <p className='font-thin'>Browse local restaurants and businesses for delivery by entering your address blow.</p>

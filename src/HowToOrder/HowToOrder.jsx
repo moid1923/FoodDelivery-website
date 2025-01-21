@@ -2,11 +2,12 @@ import React from 'react'
 
 function HowToOrder() {
   return (
-    <div className=' overflow-x-hidden px-24'>
+    <div className='px-24'>
       <div className="order-header my-5">
         <p className='text-3xl text-center font-bold'>HOW TO ORDER</p>
       </div>
-  <div className="card-section-order flex items-center justify-evenly flex-wrap">
+
+  <div className="max-w-[1231px] card-section-order flex items-center justify-evenly flex-wrap mx-auto">
   <div className="order-card my-6">
       <div className="card-numbers font-bold text-5xl text-orange-600 -mb-3 -z-10">
             01
