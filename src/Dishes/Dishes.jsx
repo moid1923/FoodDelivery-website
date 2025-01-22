@@ -13,8 +13,8 @@ function Dishes() {
       </div>
       <div className="dishes-section w-full">
       <div className="dish-card max-w-[1310px] mx-auto">
-        <div className="upper-card flex justify-center flex-wrap items-center my-10 gap-4 md:ms-44">
-          <div className="card-u-1 p-8  md:ms-10 bg-cardsBg text-center flex items-center flex-col gap-3 justify-center rounded-md">
+        <div className="upper-card flex justify-center flex-wrap items-center my-10 gap-4 ">
+          <div className="card-u-1 p-8  md:ms-40 bg-cardsBg text-center flex items-center flex-col gap-3 justify-center rounded-md">
             <div className="image p-3  text-3xl items-center text-center rounded-full bg-white">
             <p>🍕</p>
             </div>

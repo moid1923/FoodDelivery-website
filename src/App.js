@@ -6,7 +6,6 @@ import HowToOrder from './HowToOrder/HowToOrder';
 import Subscription from './Subscription/Subscription';
 import Navbar from './Navbar/Navbar';
 import Footer from './Footer/Footer';
-import Testimonials from './Testimonial/Testimonials';
 function App() {
  
   return (
@@ -15,7 +14,6 @@ function App() {
      <Hero/>
      <Dishes/>
      <HowToOrder/>
-     {/* <Testimonials/> */}
      <Feecback />
      <Subscription/>
      <Footer/>
