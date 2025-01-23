@@ -7,7 +7,7 @@ module.exports = {
         'xs': '480px',   // Extra small devices
         'sm': '600px',   // Small screens
         'md': '900px',   // Medium screens
-        'lg': '1024px',  // Large screens
+        'lg': '1030px',  // Large screens
         'xl': '1320px',  // Extra-large screens
         '3xl': '1600px', // Extra wide screens
       },

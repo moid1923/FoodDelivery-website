@@ -3,7 +3,7 @@ import "./navbar.css";
 import { HiMenu } from "react-icons/hi";
 function Navbar() {
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex items-center justify-center xs:w-full">
       <nav className="flex items-center justify-between px-12 py-6 md:p-6  text-black max-w-[1178px] w-full">
         <div className="logo">
           <p className="text-2xl">🍕</p>
