@@ -5,8 +5,8 @@ import google from '../Hero-section/image/Google Play logo.svg'
 function Footer() {
   return (
     <div className="footer-setion w-full bg-black">
-        <div className="footer bg-black max-w-[1600px] mx-auto w-full">
-      <div className=" px-36 py-28 flex items-center justify-between flex-wrap">
+        <div className="footer bg-black max-w-[1600px] mx-auto w-full ">
+      <div className=" px-36 py-28 flex flex-col gap-8 items-center justify-between lg:flex-row  ">
         <div className="footer-heading">
           <p className="text-5xl mb-24">🍕</p>
           <div className="hero-btns  my-3 flex gap-2">
@@ -67,7 +67,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="lower-footer-section flex justify-between px-36 text-gray-400 py-10">
+      <div className="lower-footer-section flex justify-between px-4  md:px-36 text-gray-400 py-10">
         <div className="footer-left">
           <p>© 2023 pizza.All right reserved</p>
         </div>

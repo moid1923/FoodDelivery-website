@@ -8,7 +8,8 @@ function HowToOrder() {
       </div>
 
       <div className="max-w-[1231px] card-section-order flex items-center justify-evenly flex-wrap mx-auto">
-        <div className="order-card my-6 z-10">
+         <div className="flex items-center justify-evenly gap-x-4">
+         <div className="order-card my-6 z-10">
           
           <div className="card-data ">
           <div className="absolute -mt-10 ms-8 card-numbers font-bold text-5xl text-orange-600 -mb-3 -z-10">
@@ -40,6 +41,13 @@ function HowToOrder() {
             </div>
           </div>
         </div>
+         </div>
+
+        
+
+
+
+        <div className="flex items-center justify-evenly gap-x-4">
         <div className="order-card my-6 z-10">
           
           <div className="card-data ">
@@ -71,6 +79,9 @@ function HowToOrder() {
             </div>
           </div>
         </div>
+        </div>
+
+        
       </div>
     </div>
   );

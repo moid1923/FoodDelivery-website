@@ -8,9 +8,9 @@ import google from './image/Google Play logo.svg'
 function Hero() {
   return (
     <div className=' relative font-inter flex items-center justify-center '>
-      <div className="hero-section max-w-[1264px] w-full mx-auto flex items-center justify-between my-16 overflow-x-hidden gap-x-16">
+      <div className="hero-section  xl:max-w-[1264px]  md:px-10 mx-auto flex flex-col gap-10 items-center justify-between my-16 md:flex-row xs:items-center">
         <div className="hero-left ">
-            <h1 className=' text-3xl md:text-4xl lg:text-5xl font-bold'>Your Favorite Food <br /> Delivery Partner</h1>
+            <h1 className=' text-3xl  lg:text-5xl font-bold'>Your Favorite Food <br /> Delivery Partner</h1>
             <p className='my-4'>The food at your doorstep . Why starve when you have us. You <br /> hunger partner. Straight out of the oven to your doorstep. </p>
             <div className="hero-left-btn relative">
             <input type="Place your order" className="btn w-[464px] bg-cardsBg rounded-3xl px-3 py-3 my-3" placeholder='Enter your delivery location'/>
@@ -18,7 +18,7 @@ function Hero() {
             </div>
             
             <div className="hero-btns  my-3 flex gap-2">
-                       <div className="apple-btn flex w-[186px] gap-x-3 bg-cardsBg p-4">
+                       <div className="apple-btn flex w-[186px] gap-x-3 bg-cardsBg p-4 rounded-lg">
                         <div className="img">
                           <img src={apple} alt="" className=''/>
                         </div>
@@ -27,7 +27,7 @@ function Hero() {
                           <p className='font-bold'>App Store</p>
                         </div>
                        </div>
-                        <div className="apple-btn flex w-[186px] gap-x-3 bg-cardsBg p-4">
+                        <div className="apple-btn flex w-[186px] gap-x-3 bg-cardsBg p-4 rounded-lg">
                         <div className="img">
                           <img src={google} alt="" className=''/>
                         </div>
@@ -40,9 +40,9 @@ function Hero() {
                 
             </div>
         </div>
-        <div className="hero-right">
-                 <div className="hr-image rounded-2xl hidden lg:block">
-                    <img src={hero} alt=""  className='w-full '/>
+        <div className="hero-right ">
+                 <div className="hr-image rounded-2xl min-w-520 flex items-center justify-center ">
+                    <img src={hero} alt="" className='xs:w-full' />
                  </div>
         </div>
       </div>
