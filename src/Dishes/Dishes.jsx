@@ -3,7 +3,7 @@ import cycle from "../Hero-section/image/dish.svg";
 import collin from "../Hero-section/image/collin.svg";
 function Dishes() {
   return (
-    <div className="my-48 px-24">
+    <div className="my-48 custom-range:my-16 px-24">
       <div className="dishes-header text-center custom-range:min-w-[100%]">
         <p className="text-2xl  md:text-4xl font-bold my-4  mx-auto ">
           MORE THAN <span className="text-primary"> 10,000</span> DISHES TO
@@ -16,20 +16,20 @@ function Dishes() {
           <div className="upper-card flex justify-center items-center  flex-col lg:flex-row  my-10 gap-4">
             <div className="flex justify-center items-center gap-6 md:flex-nowrap flex-wrap">
               <div className="card-u-1 p-8 custom-range:w-[294px]  sm:w-auto bg-cardsBg text-center flex items-center flex-col gap-3 justify-center rounded-md">
-                <div className="image text-7xl md:text-4xl    p-3  items-center text-center rounded-full bg-white">
+                <div className="image text-4xl    p-3  items-center text-center rounded-full bg-white">
                   🍕
                 </div>
                 <p className="">Pizza</p>
               </div>
               <div className="card-u-1 p-8 custom-range:w-[294px] sm:w-auto  bg-cardsBg text-center flex items-center flex-col gap-3 justify-center rounded-md">
-                <div className="image text-7xl md:text-4xl  custom-range:p-6 p-3  items-center text-center rounded-full bg-white">
+                <div className="image text-4xl  custom-range:p-6 p-3  items-center text-center rounded-full bg-white">
                   🍣
                 </div>
                 <p className="">Pizza</p>
               </div>
 
               <div className="card-u-1  p-8 custom-range:w-[294px] sm:w-[420px] md:w-auto  xl:me-10 bg-cardsBg text-center flex items-center flex-col gap-3 justify-center rounded-md">
-                <div className="image text-7xl   custom-range:p-6  md:text-4xl p-3  items-center text-center rounded-full bg-white">
+                <div className="image    custom-range:p-6  text-4xl p-3  items-center text-center rounded-full bg-white">
                   🍔
                 </div>
                 <p className="">Pizza</p>

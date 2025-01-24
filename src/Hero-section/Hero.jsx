@@ -9,7 +9,7 @@ function Hero() {
   return (
     <div className=' relative font-inter flex items-center justify-center custom-range:w-full custom-range:mx-auto '>
       <div className="hero-section xl:max-w-[1264px]  md:px-10 mx-auto flex flex-col gap-10 items-center justify-between my-16 md:flex-row custom-range:items-center ">
-        <div className="hero-left  mx-auto sm:w-auto  custom-range:w-full   ">
+        <div className="hero-left  mx-auto sm:w-auto  custom-range:w-[350px] custom-range:px-5  ">
             <h1 className=' text-3xl  lg:text-5xl font-bold  '>Your Favorite Food  Delivery Partner</h1>
             <p className='my-4 sm:w-[464px] md:w-auto'>The food at your doorstep . Why starve when you have us. You hunger partner. Straight out of the oven to your doorstep. </p>
             <div className="hero-left-btn relative w-auto  sm:w-[464px] ">
@@ -40,8 +40,8 @@ function Hero() {
                 
             </div>
         </div>
-        <div className="hero-right custom-range:w-full custom-range:flex items-center justify-center ">
-                 <div className="hr-image rounded-2xl min-w-520 flex items-center justify-center ">
+        <div className="hero-right custom-range:w-full custom-range:px-[20px] custom-range:flex items-center justify-center ">
+                 <div className="hr-image rounded-2xl min-w-520 flex items-center justify-center custom-range:w-[350px] ">
                     <img src={hero} alt="" className=' mx-auto' />
                  </div>
         </div>
