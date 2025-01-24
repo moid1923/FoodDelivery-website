@@ -62,22 +62,22 @@ function Dishes() {
             </div>
 
 
-            <div className="flex justify-center items-center gap-6 md:flex-nowrap xs:flex-wrap">
+            <div className="flex justify-center items-center gap-6 md:flex-nowrap flex-wrap">
             <div className="card-u-1 p-8 bg-cardsBg text-center flex items-center flex-col gap-3 justify-center rounded-md">
-              <div className="image xs:text-7xl xs:p-6 text-4xl md:text-3xl p-3  items-center text-center rounded-full bg-white">
+              <div className="image text-7xl sm:text-4xl xs:p-6  md:text-3xl p-3  items-center text-center rounded-full bg-white">
                 🥗
               </div>
               <p className="">Pizza</p>
             </div>
             <div className="card-u-1 p-8 bg-cardsBg text-center flex items-center flex-col gap-3 justify-center rounded-md">
-              <div className="image xs:text-7xl xs:p-6 text-4xl md:text-3xl p-3  items-center text-center rounded-full bg-white">
+              <div className="image text-7xl sm:text-4xl  xs:p-6 md:text-3xl p-3  items-center text-center rounded-full bg-white">
                 🥗
               </div>
               <p className="">Pizza</p>
             </div>
          
             <div className="card-u-1  p-8 xl:me-10 bg-cardsBg text-center flex items-center flex-col gap-3 justify-center rounded-md">
-              <div className="image xs:text-7xl  xs:p-6 text-4xl md:text-3xl p-3  items-center text-center rounded-full bg-white">
+              <div className="image text-7xl sm:text-4xl  xs:p-6  md:text-3xl p-3  items-center text-center rounded-full bg-white">
                 🍰
               </div>
               <p className="">Pizza</p>

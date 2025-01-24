@@ -12,9 +12,9 @@ function Hero() {
         <div className="hero-left xs:w-full ">
             <h1 className=' text-3xl  lg:text-5xl font-bold'>Your Favorite Food <br /> Delivery Partner</h1>
             <p className='my-4'>The food at your doorstep . Why starve when you have us. You <br /> hunger partner. Straight out of the oven to your doorstep. </p>
-            <div className="hero-left-btn relative">
+            <div className="hero-left-btn relative  w-[464px]">
             <input type="Place your order" className="btn w-[464px] bg-cardsBg rounded-3xl px-3 py-3 my-3" placeholder='Enter your delivery location'/>
-            <button className="order-btn w-[134px] py-2 px-2 text-base bg-primary rounded-3xl absolute right-1 lg:right-14 bottom-4 text-white ">Order Now</button>
+            <button className="order-btn w-[134px] py-2 px-2 text-base bg-primary rounded-3xl absolute right-1  bottom-4 text-white ">Order Now</button>
             </div>
             
             <div className="hero-btns  my-3 flex gap-2">
