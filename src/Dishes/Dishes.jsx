@@ -15,19 +15,19 @@ function Dishes() {
         <div className="dish-card xl:max-w-[1310px] mx-auto ">
           <div className="upper-card flex justify-center flex-wrap items-center my-10 gap-4 ">
             
-            <div className="card-u-1 p-8   bg-cardsBg text-center flex items-center flex-col gap-3 justify-center rounded-md">
+            <div className="card-u-1 p-8 xss:w-[400px] sm:w-auto  bg-cardsBg text-center flex items-center flex-col gap-3 justify-center rounded-md">
               <div className="image xs:text-7xl xs:p-6 p-3 text-4xl md:text-3xl  items-center text-center rounded-full bg-white">
-                <p>🍕</p>
+                🍕
               </div>
               <p className="">Pizza</p>
             </div>
-            <div className="card-u-2 p-8 bg-cardsBg text-center flex items-center flex-col gap-3 justify-center rounded-md">
+            <div className="card-u-2 p-8 xss:w-[400px] sm:w-auto  bg-cardsBg text-center flex items-center flex-col gap-3 justify-center rounded-md">
               <div className="image xs:text-7xl xs:p-6  p-3 text-4xl md:text-3xl items-center text-center rounded-full bg-white ">
                 🍣
               </div>
               <p className="">Pizza</p>
             </div>
-            <div className="card-u-3 p-8 bg-cardsBg text-center flex items-center flex-col gap-3 justify-center rounded-md">
+            <div className="card-u-3 p-8 xss:w-[400px]   md:w-auto bg-cardsBg text-center flex items-center flex-col gap-3 justify-center rounded-md">
               <div className="image xs:text-7xl xs:p-6 text-4xl md:text-3xl p-3 items-center text-center rounded-full bg-white">
                 🍔
               </div>
@@ -53,9 +53,9 @@ function Dishes() {
           <div>
             <div className="card-u-1 xs:w-full text-start xl:max-w-[568px] md:max-w-450 w-full  flex  flex-col gap-3  rounded-md p-8 ">
               <img src={collin} alt="" className="w-12 font-bold md:w-16" />
-              <p className="text-black xs:text-start xs:w-[80%] xs:px-6 text-center md:text-start md:text-2xl text-lg ">
-                “Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit,
-                sed do eiusmod tempor incididunt <br />
+              <p className="text-black xs:text-start xs:w-[100%] xs:px-6 text-center md:text-start md:text-2xl text-lg ">
+                “Lorem ipsum dolor sit amet, consectetur  adipiscing elit,
+                sed do eiusmod tempor incididunt 
                 ut labore et dolore magna aliqua.”
               </p>
             </div>
@@ -63,21 +63,21 @@ function Dishes() {
 
 
             <div className="flex justify-center items-center gap-6 md:flex-nowrap flex-wrap">
-            <div className="card-u-1 p-8 bg-cardsBg text-center flex items-center flex-col gap-3 justify-center rounded-md">
-              <div className="image text-7xl sm:text-4xl xs:p-6  md:text-3xl p-3  items-center text-center rounded-full bg-white">
+            <div className="card-u-1 p-8 xss:w-[294px]  sm:w-auto bg-cardsBg text-center flex items-center flex-col gap-3 justify-center rounded-md">
+              <div className="image text-7xl md:text-4xl xs:p-6   p-3  items-center text-center rounded-full bg-white">
                 🥗
               </div>
               <p className="">Pizza</p>
             </div>
-            <div className="card-u-1 p-8 bg-cardsBg text-center flex items-center flex-col gap-3 justify-center rounded-md">
-              <div className="image text-7xl sm:text-4xl  xs:p-6 md:text-3xl p-3  items-center text-center rounded-full bg-white">
+            <div className="card-u-1 p-8 xss:w-[294px] sm:w-auto  bg-cardsBg text-center flex items-center flex-col gap-3 justify-center rounded-md">
+              <div className="image text-7xl md:text-4xl  xs:p-6 p-3  items-center text-center rounded-full bg-white">
                 🥗
               </div>
               <p className="">Pizza</p>
             </div>
          
-            <div className="card-u-1  p-8 xl:me-10 bg-cardsBg text-center flex items-center flex-col gap-3 justify-center rounded-md">
-              <div className="image text-7xl sm:text-4xl  xs:p-6  md:text-3xl p-3  items-center text-center rounded-full bg-white">
+            <div className="card-u-1  p-8 xss:w-[294px] sm:w-[420px] md:w-auto  xl:me-10 bg-cardsBg text-center flex items-center flex-col gap-3 justify-center rounded-md">
+              <div className="image text-7xl   xs:p-6  md:text-4xl p-3  items-center text-center rounded-full bg-white">
                 🍰
               </div>
               <p className="">Pizza</p>

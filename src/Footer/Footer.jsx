@@ -10,7 +10,7 @@ function Footer() {
         <div className="footer-heading">
           <p className="text-5xl mb-24">🍕</p>
           <div className="hero-btns  my-3 flex gap-2">
-                       <div className="apple-btn flex w-[186px] gap-x-3 bg-cardsBg p-4">
+                       <div className="apple-btn flex w-[186px] gap-x-3 bg-cardsBg p-4 rounded-lg">
                         <div className="img">
                           <img src={apple} alt="" className=''/>
                         </div>
@@ -19,7 +19,7 @@ function Footer() {
                           <p className='font-bold'>App Store</p>
                         </div>
                        </div>
-                        <div className="apple-btn flex w-[186px] gap-x-3 bg-cardsBg p-4">
+                        <div className="apple-btn flex w-[186px] gap-x-3 bg-cardsBg p-4 rounded-lg">
                         <div className="img">
                           <img src={google} alt="" className=''/>
                         </div>

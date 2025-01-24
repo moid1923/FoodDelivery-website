@@ -22,7 +22,7 @@ function Navbar() {
             Login
           </button>
           <button
-            className="nav-btn p-3 rounded-full px-4 bg-primary hidden md:block text-base text-white me-20">
+            className="nav-btn w-[115px] py-3 rounded-full px-4 bg-primary hidden md:block text-base text-white me-20">
             Sign Up
           </button>
         </div>
