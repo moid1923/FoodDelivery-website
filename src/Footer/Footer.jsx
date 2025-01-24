@@ -4,12 +4,12 @@ import google from '../Hero-section/image/Google Play logo.svg'
 
 function Footer() {
   return (
-    <div className="footer-setion w-full bg-black">
-        <div className="footer bg-black max-w-[1600px] mx-auto w-full ">
+    <div className="footer-setion  bg-black  w-full min-w-[400px]">
+        <div className="footer bg-black max-w-[1600px] mx-auto w-full custom-range:w-full">
       <div className=" px-36 py-28 flex flex-col gap-8 items-center justify-between lg:flex-row  ">
         <div className="footer-heading">
           <p className="text-5xl mb-24">🍕</p>
-          <div className="hero-btns  my-3 flex gap-2">
+          <div className="hero-btns  my-3 flex gap-2 flex-wrap">
                        <div className="apple-btn flex w-[186px] gap-x-3 bg-cardsBg p-4 rounded-lg">
                         <div className="img">
                           <img src={apple} alt="" className=''/>

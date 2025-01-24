@@ -4,8 +4,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        'xss':'390px',
-        'xs': '480px',   // Extra small devices
+        'custom-range': { min: '370px', max: '600px' },
         'sm': '600px',   // Small screens
         'md': '900px',   // Medium screens
         'lg': '1030px',  // Large screens

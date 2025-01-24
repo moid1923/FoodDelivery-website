@@ -9,7 +9,7 @@ function Feecback() {
       name:"Mitchell Marsh",
       company : "CEO, Bexon Agency",
       review: (
-        <>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br /> eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <br /> ad minim veniam, quis nostrud exercitation ullamco laboris nisi</>
+        <>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim  ad minim veniam, quis nostrud exercitation ullamco laboris nisi</>
       ),
       
       
@@ -18,7 +18,7 @@ function Feecback() {
       name:"jahanzaib",
       company : "Octaloop technologies",
       review: (
-        <>HE is a brilliant student and good boy.They work <br /> in collabrative environment</>
+        <>HE is a brilliant student and good boy.They work  in collabrative environment</>
       ),
       
     },
@@ -33,19 +33,19 @@ function Feecback() {
     };
   
   return (
-    <div className='   my-[195px]'>
-      <div className="feadback-heading text-center my-4">
+    <div className='   my-[195px] custom-range:text-start'>
+      <div className="feadback-heading text-center my-4 px-6 custom-range:text-start ">
         <p className='text-3xl md:text-5xl my-3 font-bold'>Our Clients Feedback</p>
         <p className='mt-10'>The food at your doorstep. Why starve when you have us. You hunger <br /> partner. Straight out of the oven to your doorstep.</p>
       </div>
      
-      <div className="clint-feedback text-start md:text-center my-5">
+      <div className="clint-feedback custom-range:text-start text-center my-5 px-6">
         <img src={feed} alt="" className='text-primary mx-auto my-8'/>
 
-        <p className='my-4 text-center'>{data[currentIndex].review}</p>
+        <p className='my-4  sm:w-[600px] mx-auto'>{data[currentIndex].review}</p>
         <div className="name flex flex-col gap-y-2 my-5">
-            <p className='font-bold text-center'>{data[currentIndex].name}</p>
-            <p className='text-md text-center'>{data[currentIndex].company}</p>
+            <p className='font-bold '>{data[currentIndex].name}</p>
+            <p className='text-md '>{data[currentIndex].company}</p>
         
         </div>
           
