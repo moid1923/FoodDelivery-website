@@ -23,6 +23,7 @@ function Feecback() {
       
     },
    ];
+   const[showImg,setShowImg]=useState(0);
     const [currentIndex, setCurrentIndex] = useState(0);
     const handleNext = () => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % data.length);
@@ -31,9 +32,13 @@ function Feecback() {
     const handlePrev = () => {
       setCurrentIndex((prevIndex) => (prevIndex - 1 + data.length) % data.length);
     };
-  
+  const showImage=()=>{
+    setShowImg(10000000000);
+  }
   return (
     <div className='   my-[195px] custom-range:my-16 custom-range:text-start'>
+<p>{showImg}</p>
+      <button style={{backgroundColor:"pink", padding:2, alignSelf:'center'}} onClick={showImage}>ShowImg</button>
       <div className="feadback-heading text-center my-4 px-6 custom-range:text-start ">
         <p className='text-3xl md:text-5xl my-3 font-bold'>Our Clients Feedback</p>
         <p className='mt-10'>The food at your doorstep. Why starve when you have us. You hunger <br /> partner. Straight out of the oven to your doorstep.</p>

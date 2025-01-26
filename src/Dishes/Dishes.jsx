@@ -3,6 +3,7 @@ import cycle from "../Hero-section/image/dish.svg";
 import collin from "../Hero-section/image/collin.svg";
 import Card from "./Card.jsx";
 
+
 function Dishes() {
   const dishes = [
     {
