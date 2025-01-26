@@ -1,7 +1,24 @@
 import React from "react";
 import cycle from "../Hero-section/image/dish.svg";
 import collin from "../Hero-section/image/collin.svg";
+import Card from "./Card.jsx";
+
 function Dishes() {
+  const dishes = [
+    {
+      emoji: "🍔",
+      name: "Burger",
+    },
+    {
+      emoji: "🥗",
+      name: "Vegi",
+    },
+    {
+      emoji: "🍰",
+      name: "Cake",
+    },
+  ];
+
   return (
     <div className="my-48 custom-range:my-16 px-24">
       <div className="dishes-header text-center custom-range:min-w-[100%]">
@@ -15,25 +32,9 @@ function Dishes() {
         <div className="dish-card xl:max-w-[1310px] mx-auto ">
           <div className="upper-card flex justify-center items-center  flex-col lg:flex-row  my-10 gap-4">
             <div className="flex justify-center items-center gap-6 md:flex-nowrap flex-wrap">
-              <div className="card-u-1 p-8 custom-range:w-[294px]  sm:w-auto bg-cardsBg text-center flex items-center flex-col gap-3 justify-center rounded-md">
-                <div className="image text-4xl    p-3  items-center text-center rounded-full bg-white">
-                  🍕
-                </div>
-                <p className="">Pizza</p>
-              </div>
-              <div className="card-u-1 p-8 custom-range:w-[294px] sm:w-auto  bg-cardsBg text-center flex items-center flex-col gap-3 justify-center rounded-md">
-                <div className="image text-4xl  custom-range:p-6 p-3  items-center text-center rounded-full bg-white">
-                  🍣
-                </div>
-                <p className="">Pizza</p>
-              </div>
-
-              <div className="card-u-1  p-8 custom-range:w-[294px] sm:w-[420px] md:w-auto  xl:me-10 bg-cardsBg text-center flex items-center flex-col gap-3 justify-center rounded-md">
-                <div className="image    custom-range:p-6  text-4xl p-3  items-center text-center rounded-full bg-white">
-                  🍔
-                </div>
-                <p className="">Pizza</p>
-              </div>
+              {dishes.map((dish, index) => {
+                return <Card key={index} emoji={dish.emoji} name={dish.name} />;
+              })}
             </div>
             <div className="">
               <div className=" custom-range:min-w-[370px]  xl:max-w-[568px] md:max-w-450 w-full  flex  flex-col h-auto  rounded-md p-4 bg-cardsBg ">
@@ -42,7 +43,11 @@ function Dishes() {
                   partners.
                 </p>
                 <div className="image w-full relative  p-14  ">
-                  <img src={cycle} alt="" className="md:w-[192px] right-0 absolute right-l -bottom-4" />
+                  <img
+                    src={cycle}
+                    alt=""
+                    className="md:w-[192px] right-0 absolute right-l -bottom-4"
+                  />
                 </div>
               </div>
             </div>
@@ -61,25 +66,9 @@ function Dishes() {
             </div>
 
             <div className="flex justify-center items-center gap-6 md:flex-nowrap flex-wrap">
-              <div className="card-u-1 p-8 custom-range:w-[294px]  sm:w-auto bg-cardsBg text-center flex items-center flex-col gap-3 justify-center rounded-md">
-                <div className="image text-7xl md:text-4xl    p-3  items-center text-center rounded-full bg-white">
-                  🥗
-                </div>
-                <p className="">Pizza</p>
-              </div>
-              <div className="card-u-1 p-8 custom-range:w-[294px] sm:w-auto  bg-cardsBg text-center flex items-center flex-col gap-3 justify-center rounded-md">
-                <div className="image text-7xl md:text-4xl  custom-range:p-6 p-3  items-center text-center rounded-full bg-white">
-                  🥗
-                </div>
-                <p className="">Pizza</p>
-              </div>
-
-              <div className="card-u-1  p-8 custom-range:w-[294px] sm:w-[420px] md:w-auto  xl:me-10 bg-cardsBg text-center flex items-center flex-col gap-3 justify-center rounded-md">
-                <div className="image text-7xl   custom-range:p-6  md:text-4xl p-3  items-center text-center rounded-full bg-white">
-                  🍰
-                </div>
-                <p className="">Pizza</p>
-              </div>
+              {dishes.map((dish, index) => {
+                return <Card key={index} emoji={dish.emoji} name={dish.name} />;
+              })}
             </div>
           </div>
         </div>

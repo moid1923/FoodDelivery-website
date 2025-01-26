@@ -8,7 +8,7 @@ function Navbar() {
         <div className="logo">
           <p className="text-2xl">🍕</p>
         </div>
-        <div className="links mx-48">
+        <div className="links sm:mx-48">
           <ul className=" hidden   md:flex items-center justify-center  ">
             <li className="mx-3 cursor-pointer">Home</li>
             <li className="mx-3 cursor-pointer">About</li>

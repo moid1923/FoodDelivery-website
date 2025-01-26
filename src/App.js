@@ -9,7 +9,7 @@ import Footer from './Footer/Footer';
 function App() {
  
   return (
-    <div className="App custom-range:overflow-x-hidden custom-range:px-[20px]">
+    <div className="App custom-range:overflow-x-hidden ">
      <Navbar/>
      <Hero/>
      <Dishes/>
