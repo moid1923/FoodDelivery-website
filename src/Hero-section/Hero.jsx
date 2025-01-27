@@ -19,10 +19,10 @@ function Hero() {
           <div className="hero-left-btn relative w-auto  sm:w-[464px] ">
             <input
               type="Place your order"
-              className="custom-range:w-full w-full sm:w-[464px] bg-cardsBg rounded-3xl px-3 py-3 my-3"
+              className="custom-range:w-full w-full sm:w-[464px] bg-cardsBg rounded-3xl px-3 py-3 my-3 text-base"
               placeholder="Enter your delivery location"
             />
-            <button className=" w-[134px] py-2 px-2 text-base bg-primary rounded-3xl absolute right-1  bottom-4 text-white ">
+            <button className=" w-[134px] py-2 px-2 text-base bg-primary rounded-3xl absolute right-1  bottom-4 text-white custom-range:w-[100px]  ">
               Order Now
             </button>
           </div>

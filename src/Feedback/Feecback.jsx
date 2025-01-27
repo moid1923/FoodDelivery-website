@@ -39,8 +39,8 @@ function Feecback() {
         <p className='mt-10'>The food at your doorstep. Why starve when you have us. You hunger <br /> partner. Straight out of the oven to your doorstep.</p>
       </div>
      
-      <div className="clint-feedback custom-range:text-start text-center my-5 px-6">
-        <img src={feed} alt="" className='text-primary mx-auto my-8'/>
+      <div className="clint-feedback custom-range:text-start text-center my-5 px-6 relative">
+        <img src={feed} alt="" className='text-primary mx-auto my-8 custom-range:w-[50px] '/>
 
         <p className='my-4  sm:w-[600px] mx-auto'>{data[currentIndex].review}</p>
         <div className="name flex flex-col gap-y-2 my-5">

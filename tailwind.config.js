@@ -7,7 +7,7 @@ module.exports = {
         'custom-range': { min: '370px', max: '600px' },
         'sm': '600px',   // Small screens
         'md': '900px',   // Medium screens
-        'lg': '1030px',  // Large screens
+        'lg': '1024px',  // Large screens
         'xl': '1320px',  // Extra-large screens
         '3xl': '1600px', // Extra wide screens
       },
