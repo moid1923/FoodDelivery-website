@@ -5,7 +5,7 @@ import google from "../Hero-section/image/Google Play logo.svg";
 function Footer() {
   return (
     <div className="footer-setion  bg-black  w-full min-w-[400px]">
-      <div className="footer bg-black max-w-[1600px] mx-auto w-full custom-range:w-full">
+      <div className="footer bg-black max-w-[1600px] mx-auto w-full custom-range:w-full ">
         <div className=" sm:px-36 sm:py-28 flex flex-col gap-8 items-center justify-between lg:flex-row cusom-range:px-12 custom-range:py-14 ">
           <div className="footer-heading">
             <p className="text-5xl mb-24">🍕</p>
@@ -65,12 +65,12 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="lower-footer-section flex justify-between px-4  md:px-36 text-gray-400 py-10">
-          <div className="footer-left">
+        <div className="lower-footer-section flex justify-between px-4 custom-range:px-5  md:px-36 text-gray-400 py-10 custom-range:flex-col gap-y-4 ">
+          <div className="footer-left custom-range:w-[100%] text-center">
             <p>© 2023 pizza.All right reserved</p>
           </div>
-          <div className="footer-right">
-            <ul className="flex gap-6 flex-wrap">
+          <div className="footer-right custom-range:mx-auto ">
+            <ul className="flex gap-6 flex-wrap ">
               <li>Privacy</li>
               <li>Policy</li>
               <li>Term</li>
