@@ -37,7 +37,7 @@ function HowToOrder() {
 
       <div className="max-w-[1231px]  custom-range:w-full custom-range:m-1 mx-auto flex items-center justify-center ">
         
-        <div className="flex items-center justify-center flex-wrap md:flex-nowrap gap-x-4">
+        <div className="flex items-center justify-center flex-wrap md:flex-nowrap gap-x-4 xl:justify-evenly xl:gap-10">
           {order.map((order,index)=>{
             return(
               <OrderCard key={index} id={order.id} emoji={order.emoji} plan={order.plan}/>

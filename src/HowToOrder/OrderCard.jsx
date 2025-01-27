@@ -2,8 +2,8 @@ import React from "react";
 
 function OrderCard({ id, emoji, plan }) {
   return (
-    <div className="order-card my-6 z-10">
-      <div className="card-data ">
+    <div className="order-card my-6 z-10 xl:ms-[20px]">
+      <div className="card-data  ">
         <div className="absolute -mt-10 ms-8 card-numbers font-bold text-5xl text-orange-600 -mb-3 -z-10">
           {id}
         </div>
