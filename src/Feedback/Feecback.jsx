@@ -33,7 +33,7 @@ function Feecback() {
     };
  
   return (
-    <div className='   my-[195px] custom-range:my-16 custom-range:text-start'>
+    <div className=' custom-range:my-[48px]  my-[195px]  custom-range:text-start'>
       <div className="feadback-heading text-center my-4 px-6 custom-range:text-start ">
         <p className='text-3xl md:text-5xl my-3 font-bold'>Our Clients Feedback</p>
         <p className='mt-10'>The food at your doorstep. Why starve when you have us. You hunger <br /> partner. Straight out of the oven to your doorstep.</p>

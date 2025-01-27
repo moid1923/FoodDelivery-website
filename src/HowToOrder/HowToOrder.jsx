@@ -28,7 +28,7 @@ function HowToOrder() {
 
 
   return (
-    <div className="px-24 mb-[195px] max-w-[1900px]">
+    <div className="px-24 mb-[195px] max-w-[1900px] custom-range:mb-[80px]">
       <div className="order-header my-5">
         <p className="text-3xl text-center font-bold mb-[105px] custom-range:w-full">
           HOW TO ORDER
