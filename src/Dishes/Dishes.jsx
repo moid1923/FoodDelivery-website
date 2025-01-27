@@ -57,7 +57,7 @@ function Dishes() {
           <div className="lower-card flex justify-center items-center  flex-col lg:flex-row  my-10 gap-1">
             <div>
               <div className="card-u-1 custom-range:min-w-[370px] ms-[20px] xl:max-w-[568px] md:max-w-450 w-full  flex  flex-col gap-3  rounded-md p-8 ">
-                <img src={collin} alt="" className="custom-range:w-[24px] font-bold md:w-16" />
+                <img src={collin} alt="" className="custom-range:w-[24px] font-bold sm:w-[40px]" />
                 <p className="text-black   custom-range:px-6 text-center md:text-start md:text-2xl text-lg ">
                   “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna
